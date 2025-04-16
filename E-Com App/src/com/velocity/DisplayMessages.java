@@ -1,10 +1,10 @@
-package com.velocity.ecom;
+package com.velocity;
 
 import java.util.Scanner;
 
-public class Test {
-
-	public static void main(String[] args) {
+public class DisplayMessages {
+	
+public static void getData() {
 		
 		System.out.println("******** Welcome to E-Commerce based application*******");
 		System.out.println(" 1. User Operation");
@@ -129,3 +129,5 @@ public class Test {
 
 	}
 }
+
+
