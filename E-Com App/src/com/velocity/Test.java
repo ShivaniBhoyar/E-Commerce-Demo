@@ -6,7 +6,10 @@ public class Test {
 		// TODO Auto-generated method stub
 		
 		DisplayMessages displayMessages = new DisplayMessages();
-		displayMessages.getData();
+		displayMessages.getData1();
+		
+		
+		
 
 	}
 
