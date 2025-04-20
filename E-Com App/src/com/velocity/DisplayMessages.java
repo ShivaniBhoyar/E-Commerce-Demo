@@ -6,8 +6,11 @@ public class DisplayMessages {
 
     public static void getData1() {
         Scanner scanner = new Scanner(System.in); // Moved the scanner initialization outside of the loop
+        boolean i = true;
+        
+        while(i)
 
-        do {
+        {
             System.out.println("******** Welcome to E-Commerce based application*******");
             System.out.println(" 1. User Operation");
             System.out.println(" 2. Admin Operation");
@@ -136,12 +139,13 @@ public class DisplayMessages {
                     break;
 
                 case 4:
+                	i= false;
                     System.out.println("Exiting the application. Goodbye!");
                     break;
 
                 default:
                     System.out.println("Invalid main menu choice. Please try again.");
             }
-        } while (true);  // This loop will continue until the user selects option 4 to exit
+        } 
     }
 }
